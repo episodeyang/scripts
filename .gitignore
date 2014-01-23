@@ -13,3 +13,20 @@ results
 
 npm-debug.log
 node_modules
+
+#mac files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
