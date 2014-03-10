@@ -8,7 +8,7 @@ sudo apt-get install libssl-dev
 sudo apt-get install git-core
 sudo apt-get remove gyp
 sh install_nodejs_npm.sh
-sudo npm install -g grunt grunt-cli bower mocha
+sudo npm install -g grunt grunt-cli bower mocha pm2@latest
 sudo apt-get install python-setuptools
 sudo apt-get easy_install supervisor
 
