@@ -6,6 +6,7 @@ sudo apt-get install rcconf
 sudo apt-get install build-essential
 sudo apt-get install libssl-dev
 sudo apt-get install git-core
+sudo apt-get remove gyp
 sh install_nodejs_npm.sh
 sudo npm install -g grunt grunt-cli bower mocha
 sudo apt-get install python-setuptools
