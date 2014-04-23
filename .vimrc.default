@@ -1,6 +1,15 @@
+syntax enable
+filetype indent on 
+set et
+set smarttab
+map <f2> :w\|!python %
+
 set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
 set nu
-colorscheme koehler
+colorscheme zenburn "blackboard "koehler
+
+set nofoldenable "prevent folding on file load.
+set foldmethod=indent
