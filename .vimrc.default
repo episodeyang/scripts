@@ -13,6 +13,9 @@ colorscheme zenburn "blackboard "koehler
 
 command DiffOrigin vert new | set bt=nofile | r # | 0d_ | diffthis
         \ | wincmd p | diffthis
+
+execute pathogen#infect()
+
 set nofoldenable "prevent folding on file load.
 set foldmethod=indent
 fu! CustomFoldText()
