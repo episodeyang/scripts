@@ -1,3 +1,8 @@
+fortune -a
+
+echo -e "\n\n\033[32m Welcome, Lord Ge Yang"
+PS1="\[\e[1;36m\]\w\[\e[1;32m\]> \[\e[0m\]"
+
 export PATH=/usr/local/lib/python2.7:$PATH
 export PATH=/mnt/s/_Lib/python/Projects$PATH
 export PATH=/mnt/s/_Lib/python/Projects/slab::$PATH
